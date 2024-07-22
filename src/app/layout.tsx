@@ -65,9 +65,10 @@ export default function RootLayout({ children, }: Readonly<{ children: React.Rea
             </div>
           </div>
         </div>
-   
+        <div className="flex flex-col w-ful">
           {children}
-        
+        </div>
+
       </body>
     </html>
   );
